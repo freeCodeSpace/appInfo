@@ -1,0 +1,118 @@
+HTML {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+BODY {line-height: 1;padding: 0;margin: 0;background-color: #f9faff; font-family: "Times New Roman";}
+#box {
+        /* Макет */
+    min-height: 1500px;
+    width: 1000px;
+    overflow: hidden;
+    /*background-color: #f9faff;*/
+        /* Отступы */
+    margin: auto;
+    margin-top: 5px;
+        /* Поля */
+    padding: 7px;
+        /* Макет */
+    text-align: left;
+    font-size: 18px;
+    background-color: white;
+        /* Рамка */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+    .titleApps {
+        text-align: center;
+        margin-bottom: 2px;
+    }
+
+        /* Контейнер для изображений */
+    .imgBox {
+        margin-right: 10px;
+        margin-left: 5px;
+        background-color: #f9faff;
+        overflow: hidden;
+        float: right;
+        border-radius: 10px;
+        box-shadow: #8C8C8C 0px 0px 8px;
+        font-size: 0; /* для убирания возможных зазоров */
+    }
+
+    .imgBox:hover {
+        box-shadow: none;
+        cursor: pointer;
+    }
+
+    .hiddenImg {
+        display: none;
+    }
+
+/* ===================================================================
+   Переопределение стилей ui-accordion
+=================================================================== */
+.ui-widget {
+    font-size: 0.9em;
+}
+    /* Задание ширины заголовка */
+.ui-state-default {
+    width: 110px;
+}
+
+/* Стиль заголовка accordion в открытом состоянии */
+.ui-state-active,
+.ui-widget-content .ui-state-active {
+    border-bottom: none;
+}
+
+/* Стиль контента в открытом состоянии */
+.ui-accordion .ui-accordion-content {
+    overflow: hidden;
+    border-top: 1px solid #aaaaaa;
+    border-top-right-radius: 4px;
+}
+
+/* Отмена рамки у заголовка accordion */
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-active,
+.ui-widget-content .ui-state-active {
+    border: none;
+}
+
+/* Изменение цвета шрифта для заголовка */
+.ui-state-default,
+.ui-widget-content .ui-state-default {
+    color: #006FDD;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover {
+    color: #006FDD;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active {
+    color: orange;
+    background: #F7F7F7;
+}
+
+/* 
+    - убирание обводки, при клике по блоку (возникало в Chrome)
+    - изменение полей
+*/
+.accordion h3 {
+    outline: none;
+}
+
+.ui-accordion .ui-accordion-header {
+    margin: 20px 0 0 0;
+}
+/* индивидуальная поправка для .ui-accordion .ui-accordion-header в файле accordion-style (там, что бы не писать всю цепочку css, тут) */
+
+/* ===================================================================
+   1) Header Panel
+=================================================================== */
+
+    /* ?.?) ????
+    =============================================================== */
