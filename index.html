@@ -4,118 +4,478 @@
     <meta charset="utf-8">
     <title>appInfo</title>
     <link rel="stylesheet" type="text/css" href="css/lightbox.css">
-    <link rel="stylesheet" type="text/css" href="css/accordion-style.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.ico">
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="js/jquery-accordion-ui.min.js"></script>
+    <script type="text/javascript" src="js/spoiler.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
+    <div id="header">
+        <h1>AppInfo</h1>
+    </div>
     <div id="box">
-        <!-- App №1 -->
-        <h3 class="titleApps">aboutOracle</h3>
-
-        <a class="imgBox" href="img/appImg/fullSize/aboutOracle00.jpg" data-lightbox="aboutOracle" data-title="aboutOracle design maket">
+<!-- App №1 -->
+        <div class="titleAppsBox">
+            <span class="titleAppsSep">- - - - - - - -</span>
+            <h3 class="titleApps">aboutOracle</h3>
+            <span class="titleAppsSep">- - - - - - - -</span>
+            <div class="titleAppsTagBox">
+                <span class="titleAppsTag">photoShop design maket</span>
+                <span class="titleAppsTag">верстка</span>
+            </div>
+        </div>
+        <!-- photoSlide -->
+        <a class="imgBox1" href="img/appImg/fullSize/aboutOracle0.jpg" data-lightbox="aboutOracle" data-title="aboutOracle design maket">
             <img src="img/appImg/smallSize/aboutOracle.jpg" alt="aboutOracle design maket"/>
         </a>
-        <a class="hiddenImg" href="img/appImg/fullSize/aboutOracle01.jpg" data-lightbox="aboutOracle" data-title="вид оформления .html">
-            <img src="img/appImg/fullSize/aboutOracle01.jpg" alt="вид оформления .html"/>
-        </a>
-        <a class="hiddenImg" href="img/appImg/fullSize/aboutOracle02.jpg" data-lightbox="aboutOracle" data-title="вид оформления .css">
-            <img src="img/appImg/fullSize/aboutOracle02.jpg" alt="вид оформления .css"/>
-        </a>
-        <a class="hiddenImg" href="img/appImg/fullSize/aboutOracle03.jpg" data-lightbox="aboutOracle" data-title="вид оформления .js">
-            <img src="img/appImg/fullSize/aboutOracle03.jpg" alt="вид оформления .js"/>
-        </a>
-
-        <b>Описание проекта:</b><br>
-            Разработка и создание дизайн макета в PhotoShop (титульная страница). Верстка идентично макету.<br>
-        <b>Технологии:</b><br>
-            PhotoShop Design, HTML4, CSS3, Cross-browser elements, jQuery script, jQuery Cycle Plugin (ротатор картинок).<br>
-        <b>Links:</b><br>
-            - URL проекта <a href="http://aboutoracle.cloudcontrolled.com" target="_blank" title="URL проекта">link</a><br>
-            - URL репозиторий: <a href="https://github.com/freeCodeSpace/aboutOracle" target="_blank" title="URL репозиторий">link</a><br>
-            - Дизайн макет psd url <a href="https://docs.google.com/uc?id=0By3H9zT8YacMY2JfM3VEWl90Ym8&export=download" title="Дизайн макет psd">link</a><br><br>
-        <hr>
-
-        <!-- App №2 -->
-        <h3 class="titleApps">SportBlog</h3>
-
-
-      <!-- 2-й блок 1-ым -->
-        <a class="imgBox" href="img/appImg/fullSize/sportBlogCode01.jpg" data-lightbox="sportBlogCode" data-title="sportBlog">
-            <img src="img/appImg/smallSize/sportBlogCode.jpg" alt="sportBlog"/>
-        </a>
-        <a class="hiddenImg" href="img/appImg/fullSize/sportBlogCode02.jpg" data-lightbox="sportBlogCode" data-title="sportBlog">
-            <img src="img/appImg/fullSize/sportBlogCode02.jpg" alt="sportBlog"/>
-        </a>
-        <a class="hiddenImg" href="img/appImg/fullSize/sportBlogCode03.jpg" data-lightbox="sportBlogCode" data-title="sportBlog">
-            <img src="img/appImg/fullSize/sportBlogCode03.jpg" alt="sportBlog"/>
-        </a>
-        <a class="hiddenImg" href="img/appImg/fullSize/sportBlogCode04.jpg" data-lightbox="sportBlogCode" data-title="sportBlog">
-            <img src="img/appImg/fullSize/sportBlogCode04.jpg" alt="sportBlog"/>
-        </a>
-
-      <!-- 1-й блок -->
-        <a class="imgBox" href="img/appImg/fullSize/sportBlogApp01.jpg" data-lightbox="sportBlogApp" data-title="sportBlog">
-            <img src="img/appImg/smallSize/sportBlogApp.jpg" alt="sportBlog"/>
-        </a>
-        <a class="hiddenImg" href="img/appImg/fullSize/sportBlogApp02.jpg" data-lightbox="sportBlogApp" data-title="sportBlog">
-            <img src="img/appImg/fullSize/sportBlogApp02.jpg" alt="sportBlog"/>
-        </a>
-        <a class="hiddenImg" href="img/appImg/fullSize/sportBlogApp03.jpg" data-lightbox="sportBlogApp" data-title="sportBlog">
-            <img src="img/appImg/fullSize/sportBlogApp03.jpg" alt="sportBlog"/>
-        </a>
-
-        <b>Описание проекта:</b><br>
+        <a class="hiddenImg" href="img/appImg/fullSize/aboutOracle00.jpg" data-lightbox="aboutOracle" data-title="PhotoShop design maket"></a>
+        <a class="hiddenImg" href="img/appImg/fullSize/aboutOracle01.jpg" data-lightbox="aboutOracle" data-title="Вид оформления .html"></a>
+        <a class="hiddenImg" href="img/appImg/fullSize/aboutOracle02.jpg" data-lightbox="aboutOracle" data-title="Вид оформления .css"></a>
+        <a class="hiddenImg" href="img/appImg/fullSize/aboutOracle03.jpg" data-lightbox="aboutOracle" data-title="Вид оформления .js"></a>
+        <!-- Content -->
+        <h3 class="titleInfo">Описание проекта:</h3>
+        <p class="contentText1">
+            Разработка и создание дизайн макета в PhotoShop (титульная страница). Верстка идентично макету.
+        </p>
+        <h3 class="titleInfo">Технологии:</h3>
+        <p class="contentText1">
+            PhotoShop Design, HTML4, CSS3, Cross-browser elements, jQuery script.<br>
+            jQuery Cycle Plugin (ротатор картинок).
+        </p>
+        <h3 class="titleInfo">Links:</h3>
+        <p class="contentText1">
+            <a class="linkApp linkAppIcon1" href="http://aboutoracle.cloudcontrolled.com" target="_blank" title="URL проекта">
+                URL проекта
+            </a><br>
+            <a class="linkApp linkAppIcon2" href="https://github.com/freeCodeSpace/aboutOracle" target="_blank" title="URL репозиторий">
+                URL репозиторий
+            </a><br>
+            <a class="linkApp linkAppIcon3" href="https://docs.google.com/uc?id=0By3H9zT8YacMdUJucXhWOVhYSTg&export=download" target="_blank" title="Дизайн макет psd">
+                Сохранить дизайн макет на диск
+            </a><br>
+        </p>
+<!-- App №2 -->
+        <div class="titleAppsBox">
+            <span class="titleAppsSep">- - - - - - - -</span>
+            <h3 class="titleApps">SportBlog</h3>
+            <span class="titleAppsSep">- - - - - - - -</span>
+            <div class="titleAppsTagBox">
+                <span class="titleAppsTag">Yii2</span>
+                <span class="titleAppsTag">HTML5</span>
+                <span class="titleAppsTag">AJAX</span>
+            </div>
+        </div>
+    <!-- photoSlide -->
+        <div class="photoSlideBox">
+            <!-- 1-й блок photoSlide -->
+            <a class="imgBox2" href="img/appImg/fullSize/sportBlogApp01.jpg" data-lightbox="sportBlogApp" data-title="Общий вид">
+                <img src="img/appImg/smallSize/sportBlogApp.jpg" alt="Общий вид"/>
+            </a>
+            <a class="hiddenImg" href="img/appImg/fullSize/sportBlogApp02.jpg" data-lightbox="sportBlogApp" data-title="Вывод конкретной записи"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/sportBlogApp03.jpg" data-lightbox="sportBlogApp" data-title="Последняя позиция пагинации"></a>
+            <div class="clearBox"></div>
+            <!-- 2-й блок photoSlide -->
+            <a class="imgBox2 imgBox3" href="img/appImg/fullSize/sportBlogCode01.jpg" data-lightbox="sportBlogCode" data-title="Вид оформления layout">
+                <img src="img/appImg/smallSize/sportBlogCode.jpg" alt="Вид оформления layout"/>
+            </a>
+            <a class="hiddenImg" href="img/appImg/fullSize/sportBlogCode02.jpg" data-lightbox="sportBlogCode" data-title="Ф-ия обработки действий"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/sportBlogCode03.jpg" data-lightbox="sportBlogCode" data-title="Ф-ия обработки случайной заметки"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/sportBlogCode04.jpg" data-lightbox="sportBlogCode" data-title="View вывода заголовков статей и пагинации"></a>
+        </div>
+    <!-- Content -->
+        <h3 class="titleInfo">Описание проекта:</h3>
+        <p class="contentText1">
             Типовой мини-блог реализован с помощью Yii2 (с HTML5 семантической разбивкой). Реализует вывод записей (находящихся в БД) по категориям.<br>
-            Возможность посмотреть подробно информацию по записи. Вывод случайных заметок и возможность вывода новой, без перезагрузки страницы.<br>
-            (проект без дизайна, css минимален)<br>
-        <b>Технологии:</b><br>
+            Возможность посмотреть подробно информацию по записи. Вывод случайных заметок и возможность вывода новой, без перезагрузки страницы. Без дизайна, css минимален.<br>
+        </p>
+        <h3 class="titleInfo">Технологии:</h3>
+        <p class="contentText1">
             HTML5, Yii2, MySQL, AJAX.<br>
             HTML5 семантическая разметка. Динамическое получение контента из БД, при помощи AJAX. Вывод "хлебных крошек" с активными URL-переходами.<br>
             Запоминание последней случайной заметки в cookie.<br>
-        <b>Links:</b><br>
-            - URL проекта <a href="http://sportblog.cloudcontrolled.com" target="_blank" title="URL проекта">link</a><br>
-            - URL репозиторий: <a href="https://github.com/freeCodeSpace/SportBlog" target="_blank" title="URL репозиторий">link</a><br>
-
-        <div class="accordion">
-            <h3>Подробно:</h3>
-            <div>
-                <b>- HTML5:</b><br>
-                    семантическая разметка: header, nav, aside, article, section, footer<br>
-                <b>- Yii2:</b><br>
-                    - Изменение базовой структуры папок yii2framework basic tamplate<br>
-                    - конфигурация urlManager<br>
-                    - Персонализация (css и опции) yii pagination<br>
-                    - Запоминание последней случайной заметки в cookie
-                    <a href="https://github.com/freeCodeSpace/SportBlog/blob/master/_protected/controllers/SportBlogController.php#L94" target="_blank" title="">gitHub link</a><br>
-                <b>- MySQL:</b><br>
-                    - создание структуры и наполнение БД (DAO), выполнено на localhost
-                    - используется ActiveRecord<br>
-                <b>- AJAX:</b><br>
-                    - получение записи из БД по клику на кнопке.<br>
-                    <a href="https://github.com/freeCodeSpace/SportBlog/blob/master/_protected/views/layouts/_note.php#L16" target="_blank" title="">gitHub link</a><br>
-                <b>- Widgets:</b><br>
-                    Menu, Breadcrumbs, ListView.<br><br>
+        </p>
+        <h3 class="titleInfo">Links:</h3>
+        <p class="contentText1">
+            <a class="linkApp linkAppIcon1" href="http://sportblog.cloudcontrolled.com" target="_blank" title="URL проекта">
+                URL проекта
+            </a><br>
+            <a class="linkApp linkAppIcon2" href="https://github.com/freeCodeSpace/SportBlog" target="_blank" title="URL репозиторий">
+                URL репозиторий
+            </a><br>
+        </p>
+    <!-- Spoiler -->
+        <div class="spoilerBox">
+            <!-- Блок-заголовок, клик по которому сворачивает/разворачивает контент -->
+            <div class="spoilerTitle spoilerTitle-closed">
+                Подробно
+                <span class="spoilerTitle-arrowDown"> ▼</span>
+                <span class="spoilerTitle-arrowUp"> ▲</span>
+            </div>
+            <!-- Блок служит для одновременного сворачивания элементов -->
+            <div class="spoilerContentBox">
+                <!-- Блок содержащий контент -->
+                <div class="spoilerContent">
+                    <h3 class="titleInfo">HTML5:</h3>
+                    <p class="contentText1">
+                        - Семантическая разметка: header, nav, aside, article, section, footer
+                    </p>
+                    <h3 class="titleInfo">Yii2:</h3>
+                    <p class="contentText1">
+                        - Изменение базовой структуры папок yii2framework basic tamplate<br>
+                        - Конфигурация urlManager<br>
+                        - Персонализация (css и опции) yii pagination<br>
+                        - Запоминание последней случайной заметки в cookie
+                        <a class="linkApp linkAppIcon2" href="https://github.com/freeCodeSpace/SportBlog/blob/master/_protected/controllers/SportBlogController.php#L94" target="_blank" title="URL репозиторий">
+                            gitHub link
+                        </a>
+                    </p>
+                    <h3 class="titleInfo">MySQL:</h3>
+                    <p class="contentText1">
+                        - Создание структуры и наполнение БД (DAO), выполнено на localhost<br>
+                        - Используется ActiveRecord<br>
+                    </p>
+                    <h3 class="titleInfo">AJAX:</h3>
+                    <p class="contentText1">
+                        - Получение записи из БД по клику на кнопке
+                        <a class="linkApp linkAppIcon2" href="https://github.com/freeCodeSpace/SportBlog/blob/master/_protected/views/layouts/_note.php#L16" target="_blank" title="URL репозиторий">
+                            gitHub link
+                        </a>
+                    </p>
+                    <h3 class="titleInfo">Widgets:</h3>
+                    <p class="contentText1">
+                        - Menu, Breadcrumbs, ListView.<br>
+                    </p>
+                    <!-- #END contentText -->
+                </div>
+                <!-- Блок-закладка для сворачивания контента -->
+                <div class="spoilerCloseBox">
+                    <div class="spoilerCloseTab" title="Свернуть">▲</div>
+                </div>
             </div>
         </div>
-
-        <hr>
-
-<!--
-        <a href="" target="_blank" title=""></a>
-        <a href="img/appImg/fullSize/1.jpg" data-lightbox="roadtrip1" data-title="Название картинки 1">
-            <img src="img/appImg/smallSize/1-2.jpg" alt="Картинка 1"/>
+        <br>
+<!-- App №3 -->
+        <div class="titleAppsBox">
+            <span class="titleAppsSep">- - - - - - - -</span>
+            <h3 class="titleApps">hotUrls</h3>
+            <span class="titleAppsSep">- - - - - - - -</span>
+            <div class="titleAppsTagBox">
+                <span class="titleAppsTag">Yii2</span>
+                <span class="titleAppsTag">CRUD</span>
+            </div>
+        </div>
+    <!-- photoSlide -->
+        <div class="photoSlideBox">
+            <!-- 1-й блок photoSlide -->
+            <a class="imgBox2" href="img/appImg/fullSize/hotUrlsApp01.jpg" data-lightbox="hotUrlsApp" data-title="Управление записями таблицы News">
+                <img src="img/appImg/smallSize/hotUrlsApp.jpg" alt="Управление записями таблицы News"/>
+            </a>
+            <a class="hiddenImg" href="img/appImg/fullSize/hotUrlsApp02.jpg" data-lightbox="hotUrlsApp" data-title="Форма входа"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/hotUrlsApp03.jpg" data-lightbox="hotUrlsApp" data-title="Форма добавления контента"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/hotUrlsApp04.jpg" data-lightbox="hotUrlsApp" data-title="Титульная страница"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/hotUrlsApp05.jpg" data-lightbox="hotUrlsApp" data-title="Редактирование записи"></a>
+            <div class="clearBox"></div>
+            <!-- 2-й блок photoSlide -->
+            <a class="imgBox2 imgBox3" href="img/appImg/fullSize/hotUrlsCode01.jpg" data-lightbox="hotUrlsCode" data-title="Вид оформления layout">
+                <img src="img/appImg/smallSize/hotUrlsCode.jpg" alt="Вид оформления layout"/>
+            </a>
+            <a class="hiddenImg" href="img/appImg/fullSize/hotUrlsCode02.jpg" data-lightbox="hotUrlsCode" data-title="Ф-ия обработки добавления контента"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/hotUrlsCode03.jpg" data-lightbox="hotUrlsCode" data-title="view формы добавления контента"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/hotUrlsCode04.jpg" data-lightbox="hotUrlsCode" data-title="gridView таблицы News"></a>
+        </div>
+    <!-- Content -->
+        <h3 class="titleInfo">Описание проекта:</h3>
+        <p class="contentText1">
+            Тестовый проект, реализованный с помощью Yii2.<br>
+            Выводит новостные ссылки и отображает картинки (по ссылкам, вместо хранения изображения).<br>
+            Позволяет (авторизованому пользователю) добавить на сайт необходимые ссылки с помощью <br>
+            форм с валидацией полей. Добавление/обновление записей доступно для учетных записей <br>
+            имеющих данную привилегию (имитация функционала ролей). Реализовано управление контентом, по типу CRUD из framework.
+            Реализован контроль доступа к страницам управления контентом.<br>
+            Без дизайна, css минимален.
+        </p>
+        <h3 class="titleInfo">Технологии:</h3>
+        <p class="contentText1">
+            Yii2, MySQL, элементы css bootstrap, javaScript.
+        </p>
+        <h3 class="titleInfo">Links:</h3>
+        <p class="contentText1">
+            <a class="linkApp linkAppIcon1" href="http://hoturls.cloudcontrolled.com" target="_blank" title="URL проекта">
+                URL проекта
+            </a><br>
+            <a class="linkApp linkAppIcon2" href="https://github.com/freeCodeSpace/hotUrls" target="_blank" title="URL репозиторий">
+                URL репозиторий
+            </a><br>
+        </p>
+    <!-- Spoiler -->
+        <div class="spoilerBox">
+            <!-- Блок-заголовок, клик по которому сворачивает/разворачивает контент -->
+            <div class="spoilerTitle spoilerTitle-closed">
+                Подробно
+                <span class="spoilerTitle-arrowDown"> ▼</span>
+                <span class="spoilerTitle-arrowUp"> ▲</span>
+            </div>
+            <!-- Блок служит для одновременного сворачивания элементов -->
+            <div class="spoilerContentBox">
+                <!-- Блок содержащий контент -->
+                <div class="spoilerContent">
+                    <h3 class="titleInfo">Yii2:</h3>
+                    <p class="contentText1">
+                        - Изменение базовой структуры папок yii2framework basic tamplate<br>
+                        - Использование решений из yii2framework advance tamplate (login & psw)<br>
+                        - Конфигурация urlManager<br>
+                        - Использование нескольких assets<br>
+                        - Signup реализован на localhost<br>
+                        - Использование registerCss<br>
+                        - Модифицированные опции в GridView: columns-value-function, columns-template <a class="linkApp linkAppIcon2" href="https://github.com/freeCodeSpace/hotUrls/blob/master/_protected/views/control/news.php#L25" target="_blank" title="URL репозиторий">
+                            gitHub link
+                        </a><br>
+                        - Стандартная framework пагинация (без индивидуального css)<br>
+                        - Обновление конкретной записи, реализовано по аналогии CRUD Yii2 basic<br>
+                    </p>
+                    <h3 class="titleInfo">MySQL:</h3>
+                    <p class="contentText1">
+                        - создание структуры БД , выполнено на localhost<br>
+                        - используется ActiveRecord<br>
+                        - используется (на host) множественное добавления данных ActiveRecord.<br>
+                    </p>
+                    <h3 class="titleInfo">JS:</h3>
+                    <p class="contentText1">
+                        Самописный спойлер на javaScript (без jQ)
+                    </p>
+                    <h3 class="titleInfo">Widgets:</h3>
+                    <p class="contentText1">
+                        ActiveForm, GridView.
+                    </p>
+                    <!-- #END contentText -->
+                </div>
+                <!-- Блок-закладка для сворачивания контента -->
+                <div class="spoilerCloseBox">
+                    <div class="spoilerCloseTab" title="Свернуть">▲</div>
+                </div>
+            </div>
+        </div>
+        <br>
+<!-- App №4 -->
+        <div class="titleAppsBox">
+            <span class="titleAppsSep">- - - - - - - -</span>
+            <h3 class="titleApps">Разное Yii2</h3>
+            <span class="titleAppsSep">- - - - - - - -</span>
+        </div>
+        <h3 class="titleInfo">Реализации <b class="titleAppMini">Yii2</b> на localhost:</h3>
+        <p class="contentText1">
+            <b>DB:</b> AR, DAO, JoinQuery, Migrations, QueryBuilder, Relational<br>
+            <b>Other:</b> captcha, modules, verbFilters, mail, downloadFileFromServ, session, tag Cloud, LogIn&SignIn&Capt<br>
+            <b>Model:</b> scenarios & rules, rulesFunc<br>
+            <b>Kartik extensions</b><br>
+        </p><br>
+<!-- App №5 -->
+        <div class="titleAppsBox">
+            <span class="titleAppsSep">- - - - - - - -</span>
+            <h3 class="titleApps">e-book</h3>
+            <span class="titleAppsSep">- - - - - - - -</span>
+            <div class="titleAppsTagBox">
+                <span class="titleAppsTag"><b>php</b> noFrameWork</span>
+                <span class="titleAppsTag">mySql</span>
+            </div>
+        </div>
+    <!-- photoSlide -->
+        <div class="photoSlideBox">
+            <!-- 1-й блок photoSlide -->
+            <a class="imgBox2" href="img/appImg/fullSize/eBookApp01.jpg" data-lightbox="eBookApp" data-title="Вывод категории книг и пагинации">
+                <img src="img/appImg/smallSize/eBookApp.jpg" alt="Вывод категории книг и пагинации"/>
+            </a>
+            <a class="hiddenImg" href="img/appImg/fullSize/eBookApp02.jpg" data-lightbox="eBookApp" data-title="Вывод конкретной записи и счетчик корзины">
+                <img src="img/appImg/fullSize/eBookApp02.jpg" alt="Вывод конкретной записи и счетчик корзины"/>
+            </a>
+            <a class="hiddenImg" href="img/appImg/fullSize/eBookApp03.jpg" data-lightbox="eBookApp" data-title="Вывод содержимого корзины"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/eBookApp04.jpg" data-lightbox="eBookApp" data-title="Форма оформления заказа"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/eBookApp05.jpg" data-lightbox="eBookApp" data-title="Админ. часть: таблица товаров"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/eBookApp06.jpg" data-lightbox="eBookApp" data-title="Админ. часть: таблица заказов"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/eBookApp07.jpg" data-lightbox="eBookApp" data-title="Админ. часть: таблица покупателей"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/eBookApp08.jpg" data-lightbox="eBookApp" data-title="Админ. часть: форма редактирования товара"></a>
+            <div class="clearBox"></div>
+            <!-- 2-й блок photoSlide -->
+            <a class="imgBox2 imgBox3" href="img/appImg/fullSize/eBookCode01.jpg" data-lightbox="eBookCode" data-title="Структура папок проекта и сборщик макета">
+                <img src="img/appImg/smallSize/eBookCode.jpg" alt="Структура папок проекта и сборщик макета"/>
+            </a>
+            <a class="hiddenImg" href="img/appImg/fullSize/eBookCode02.jpg" data-lightbox="eBookCode" data-title="Код вывода категории товара"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/eBookCode03.jpg" data-lightbox="eBookCode" data-title="Код вывода категории товара, продолжение"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/eBookCode04.jpg" data-lightbox="eBookCode" data-title="Код занесения данных в БД"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/eBookCode05.jpg" data-lightbox="eBookCode" data-title="Код валидации формы"></a>
+            <a class="hiddenImg" href="img/appImg/fullSize/eBookCode06.jpg" data-lightbox="eBookCode" data-title="Админ. часть: код вывода каталога заказчиков"></a>
+        </div>
+    <!-- Content -->
+        <h3 class="titleInfo">Описание проекта:</h3>
+        <p class="contentText1">
+            Книжный магазин на PHP (большой практический localhost-проект на php). Без использования frameWork, с элементами ООП (в основном функциональное программирование). Реализация сборщика шаблона. Работа с MySQL с помощью mysqli. Самописная пагинация и валидация форм. Стороняя библиотека для captcha.<br>
+            <b>Польз. часть:</b> вывод товаров по категориям, корзина и управление ею, оформления заказа.<br>
+            <b>Админ. часть:</b> управление каталогом товаров, заказами, покупателями.
+        </p>
+        <h3 class="titleInfo">Технологии:</h3>
+        <p class="contentText1">
+            PHP, session, regex, javaScript.<br>
+            MySql: sql, mysql<b>i</b>, подготовленные запросы.
+        </p>
+        <h3 class="titleInfo">Links:</h3>
+        <p class="contentText1">
+            <a class="linkApp linkAppIcon4" href="https://youtu.be/SQaTa2b-yjs" target="_blank" title="URL видео проекта">
+                 URL демонстрационное видео на <b>YouTube</b> с комментариями
+            </a><br>
+            <a class="linkApp linkAppIcon2" href="https://github.com/freeCodeSpace/eBook" target="_blank" title="URL репозиторий">
+                URL репозиторий
+            </a><br>
+        </p>
+    <!-- Spoiler -->
+        <div class="spoilerBox">
+            <!-- Блок-заголовок, клик по которому сворачивает/разворачивает контент -->
+            <div class="spoilerTitle spoilerTitle-closed">
+                Подробно
+                <span class="spoilerTitle-arrowDown"> ▼</span>
+                <span class="spoilerTitle-arrowUp"> ▲</span>
+            </div>
+            <!-- Блок служит для одновременного сворачивания элементов -->
+            <div class="spoilerContentBox">
+                <!-- Блок содержащий контент -->
+                <div class="spoilerContent">
+                    <h3 class="titleInfo">Пользовательская часть:</h3>
+                    <p class="contentText1">
+                        <b>- Вывод товара:</b><br>
+                        <p class="contentText2">
+                            1) Вывод товаров из БД по категориям (в соотв. с пунктом меню).<br>
+                            2) Вывод товаров, оформлен с учетом кол-ва блоков на странице (но не более 4-х).<br>
+                            3) Подсветка пунктов меню (в зависимости от типа категории).<br>
+                            4) Разбивка базового шаблона на подключаемые блоки.<br>
+                            5) Реализация пагинации страниц вывода товара (в соотв. с текущ. категорией).<br>
+                            6) Страница подробнее для товара.<br>
+                        </p>
+                    </p>
+                    <p class="contentText1">
+                        <b>- Корзина покупателя:</b><br>
+                        <p class="contentText2">
+                            1) Вывод кол-ва заказанного товара (в панели шапки).<br>
+                            2) Страница обзора данных о текущем заказе:<br>
+                            &nbsp;&nbsp;&nbsp;- Обзор корзины, удаление заказа, очистка заказа.<br>
+                            &nbsp;&nbsp;&nbsp;- Реализация возврата на то место сайта, с которого перешли в корзину.<br>
+                            3) Страница оформления заказа (с вводом captcha).<br>
+                        </p>
+                    </p>
+                    <h3 class="titleInfo">Администраторская часть:</h3>
+                    <p class="contentText1">
+                        <b>- Таблица 'books' (табл. записей товара):</b><br>
+                        <p class="contentText2">
+                            1) Вывод данных (подобно PhpMyAdim), <br>оформлен табл. по 10-ть записей на стр. (с пагинацией).<br>
+                            2) Удаления товара из БД.<br>
+                            3) Добавления нового товара в БД и редактирование текущих данных.<br>
+                            4) Валидация полей при добавлении/редактировании данных товара и авторедиректы с задержкой.<br>
+                            5) Реализация возвратов (при обработке записей таблицы):<br>
+                            &nbsp;&nbsp;&nbsp;- при удалении/добавлении → в конец страницы пагинации (таблицы 'books').<br>
+                            &nbsp;&nbsp;&nbsp;- при редактировании → на ту позицию пагинации, с которой началось редактирование.<br>
+                            6) Подсветка пунктов меню и подменю.
+                        </p>
+                    </p>
+                    <p class="contentText1">
+                        <b>- Таблица 'orders' (табл. записей заказов):</b><br>
+                        <p class="contentText2">
+                            1) Оформлена таблицей по 10-ть записей на стр. (с пагинацией).<br>
+                            2) Возможность удалить запись.<br>
+                            3) Возможность посмотреть таблицу заказов, но обобщенно по покупателям.<br>
+                        </p>
+                    </p>
+                    <!-- #END contentText -->
+                </div>
+                <!-- Блок-закладка для сворачивания контента -->
+                <div class="spoilerCloseBox">
+                    <div class="spoilerCloseTab" title="Свернуть">▲</div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+<!-- App №6 -->
+        <div class="titleAppsBox">
+            <span class="titleAppsSep">- - - - - - - -</span>
+            <h3 class="titleApps">jqReadMode</h3>
+            <span class="titleAppsSep">- - - - - - - -</span>
+            <div class="titleAppsTagBox">
+                <span class="titleAppsTag">jQuery</span>
+                <span class="titleAppsTag">javaScript</span>
+                <span class="titleAppsTag">canvas</span>
+            </div>
+        </div>
+        <!-- photoSlide -->
+        <a class="imgBox1" href="img/appImg/fullSize/jqReadMode01.jpg" data-lightbox="jqReadMode" data-title="Пример1: Начальный вид страницы и выбор блока с контентом (сайт wikipedia)">
+            <img src="img/appImg/smallSize/jqReadMode.jpg" alt="Пример1: Начальный вид страницы и выбор блока с контентом (сайт wikipedia)"/>
         </a>
--->
-        <!-- 2-е изображение скрыто -->
-<!--
-        <a class="hiddenImg" href="img/appImg/fullSize/2.jpg" data-lightbox="roadtrip1" data-title="Название картинки 2">
-            <img src="img/appImg/smallSize/2.jpg" alt="Картинка 2"/>
+        <a class="hiddenImg" href="img/appImg/fullSize/jqReadMode02.jpg" data-lightbox="jqReadMode" data-title="Пример1: Выбранный контент, отображенный в режиме чтения (сайт wikipedia)"></a>
+        <a class="hiddenImg" href="img/appImg/fullSize/jqReadMode03.jpg" data-lightbox="jqReadMode" data-title="Пример2: Начальный вид страницы и выбор блока с контентом (сайт habrahabr)"></a>
+        <a class="hiddenImg" href="img/appImg/fullSize/jqReadMode04.jpg" data-lightbox="jqReadMode" data-title="Пример2: Выбранный контент, отображенный в режиме чтения (сайт habrahabr)"></a>
+        <a class="hiddenImg" href="img/appImg/fullSize/jqReadMode05.jpg" data-lightbox="jqReadMode" data-title="Код проекта.."></a>
+        <a class="hiddenImg" href="img/appImg/fullSize/jqReadMode06.jpg" data-lightbox="jqReadMode" data-title="Код проекта..."></a>
+    <!-- Content -->
+        <h3 class="titleInfo">Описание проекта:</h3>
+        <p class="contentText1">
+            Проект на jQuery: readMode. Пользовательский script для fireFox. Предназначенный для более удобного отображения контена.
+            По комбинации клавиш включается режим подсветки блоков и по клику мышкой по нужному блоку с контентом, осуществляется отображения данного контента в более удобном виде (на странице отображается только данный контент, выполняется <br>относительный прирост шрифта).
+        </p>
+        <h3 class="titleInfo">Технологии:</h3>
+        <p class="contentText1">
+            jQuery, javaScript, canvas, CSS3 generated fons.<br>
+        </p>
+        <h3 class="titleInfo">Links:</h3>
+        <p class="contentText1">
+            <a class="linkApp linkAppIcon4" href="https://youtu.be/hJj0Zk58ulg" target="_blank" title="URL видео проекта">
+                 URL демонстрационное видео на <b>YouTube</b> с комментариями
+            </a><br>
+        </p>
+        <br><br>
+<!-- App №7 -->
+        <div class="titleAppsBox">
+            <span class="titleAppsSep">- - - - - - - -</span>
+            <h3 class="titleApps">WotStatist</h3>
+            <span class="titleAppsSep">- - - - - - - -</span>
+            <div class="titleAppsTagBox">
+                <span class="titleAppsTag">JSON</span>
+                <span class="titleAppsTag">javaScript</span>
+                <span class="titleAppsTag">HTML tables</span>
+            </div>
+        </div>
+        <!-- photoSlide -->
+        <a class="imgBox1" href="img/appImg/fullSize/wotStatist01.jpg" data-lightbox="wotStatist" data-title="Главная страница">
+            <img src="img/appImg/smallSize/wotStatist.jpg" alt="Главная страница"/>
         </a>
--->
+        <a class="hiddenImg" href="img/appImg/fullSize/wotStatist02.jpg" data-lightbox="wotStatist" data-title="Подстраница"></a>
+        <a class="hiddenImg" href="img/appImg/fullSize/wotStatist03.jpg" data-lightbox="wotStatist" data-title="Разбираемый файл JSON"></a>
+        <a class="hiddenImg" href="img/appImg/fullSize/wotStatist04.jpg" data-lightbox="wotStatist" data-title="index.html"></a>
+        <a class="hiddenImg" href="img/appImg/fullSize/wotStatist05.jpg" data-lightbox="wotStatist" data-title="style.css"></a>
+        <a class="hiddenImg" href="img/appImg/fullSize/wotStatist06.jpg" data-lightbox="wotStatist" data-title="Код проекта.."></a>
+        <a class="hiddenImg" href="img/appImg/fullSize/wotStatist07.jpg" data-lightbox="wotStatist" data-title="Код проекта..."></a>
+    <!-- Content -->
+        <h3 class="titleInfo">Описание проекта:</h3>
+        <p class="contentText1">
+            Проект на javaScript с JSON: WotStatist. Проект работает с файлом содержащим данные в формате JSON.
+            Выбирает необходимые данные, выполняет вычисления, выводит данные в удобном виде.
+            Реорганизовывает выбранные данные в новую структуру JSON для дальнейшего вывода.<br>
+            Проект предназначен для работы локально.
+        </p>
+        <h3 class="titleInfo">Технологии:</h3>
+        <p class="contentText1">
+            javaScript, HTML tables, jQuery, jQuery number (lib)<br>
+        </p>
+        <p class="contentText1">
+            <a class="linkApp linkAppIcon1" href="http://wotstatist.cloudcontrolled.com" target="_blank" title="URL проекта 1">
+                URL проекта (источник данных 1)
+            </a><br>
+            <a class="linkApp linkAppIcon5" href="http://wotstatist.cloudcontrolled.com/DATA/statisticCache1.json" target="_blank" title="URL проекта 1">
+                URL файла с разбираемыми данными JSON
+            </a><br>
+            <a class="linkApp linkAppIcon1" href="http://wotstatist.cloudcontrolled.com/sample2.html" target="_blank" title="URL проекта 2">
+                URL проекта (источник данных 2)
+            </a><br>
+            <a class="linkApp linkAppIcon2" href="https://github.com/freeCodeSpace/WotStatist" target="_blank" title="URL репозиторий">
+                URL репозиторий
+            </a><br>
+        </p>
     </div><!-- END OF: #Box-->
     <script type="text/javascript" src="js/lightbox.js"></script>
 </body>
