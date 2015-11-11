@@ -21,6 +21,7 @@ BODY {line-height: 1;padding: 0;margin: 0;background-color: #f9faff; font-family
     background: #f8f8f8 url(../img/appImg/BGimg01.gif) repeat;
     border-bottom: 1px dashed #E2E2E2;
     box-shadow:  0 4px 2px -2px #E6E6E6;
+    min-width: 1120px;
 }
     #header h1 {
         margin: 0;
