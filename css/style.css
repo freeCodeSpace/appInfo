@@ -291,3 +291,5 @@ BODY {line-height: 1;padding: 0;margin: 0;background-color: #f9faff; font-family
             background-image: url('../img/appImg/urlIconJSON.png');
             background-position: 0px 5px;
         }
+        /* Добавочный отступ с учетом скртия неактивных url */
+        .step { margin-bottom: 3px; }
